@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiago Mendes Ferreira - Research Group</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .centered-content {
+            text-align: center;
+            margin: 0 auto; /* This will horizontally center the content */
+            max-width: 600px; /* Adjust the maximum width as needed */
+        }
+    </style>
 </head>
+<script src="header.js"></script>
 <body>
-    <script src="header.js"></script>
+    <div class="centered-content">
         <!-- You can add content for the homepage here -->
         <h2>Welcome to my research group!</h2>
         <p>This is the homepage of my research group. Feel free to explore the other pages to learn more about us.</p>
-
-    <footer>
         <p>&copy; 2024 Tiago Mendes Ferreira</p>
-    </footer>
-    
-
+    </div>
 </body>
 </html>
 
