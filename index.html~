@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!--#include virtual="header.html" -->
+        <!--#include virtual="header.html" -->
         <!-- You can add content for the homepage here -->
         <h2>Welcome to my research group!</h2>
         <p>This is the homepage of my research group. Feel free to explore the other pages to learn more about us.</p>
