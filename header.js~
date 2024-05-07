@@ -1,8 +1,8 @@
 document.write(`
-    <header style="text-align: center;">
+    <header>
         <h1>Tiago Mendes Ferreira</h1>
         <nav>
-            <ul style="text-align: center;">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="research.html">Research</a></li>
@@ -13,4 +13,3 @@ document.write(`
         </nav>
     </header>
 `);
-
