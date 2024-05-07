@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Mendes Ferreira - Research Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tiago Mendes Ferreira</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Insert your biography and information about your research interests here.</p>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <!-- Add subsections for different research areas or projects -->
+            <h3>Research Area 1</h3>
+            <p>Insert description of your research area/project here.</p>
+            <!-- Add more research areas or projects as needed -->
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <!-- Add a list of your publications here -->
+            <ul>
+                <li>Publication 1</li>
+                <li>Publication 2</li>
+                <li>Publication 3</li>
+                <!-- Add more publications as needed -->
+            </ul>
+        </section>
+
+        <section id="team">
+            <h2>Team</h2>
+            <!-- Add information about your research team members here -->
+            <div class="team-member">
+                <h3>Name</h3>
+                <p>Bio and contact information</p>
+            </div>
+            <!-- Add more team members as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Contact information goes here.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tiago Mendes Ferreira</p>
+    </footer>
+</body>
+</html>
+
