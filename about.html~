@@ -3,26 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiago Mendes Ferreira - Research Group</title>
+    <title>About - Tiago Mendes Ferreira</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        header {
-            text-align: center;
-        }
-
-        header h1 {
-            margin-bottom: 20px;
-        }
-
-        main {
-            text-align: center;
-        }
-
-        main h2 {
-            margin-top: 40px;
-            margin-bottom: 20px;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -30,7 +12,6 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
                 <li><a href="research.html">Research</a></li>
                 <li><a href="publications.html">Publications</a></li>
                 <li><a href="team.html">Team</a></li>
@@ -40,27 +21,10 @@
     </header>
 
     <main>
-        <!-- You can add content for the homepage here -->
-        <h2>Welcome 2 my research group!</h2>
-        <p>This is the homepage of my research group. Feel free to explore the other pages to learn more about us.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Insert your biography and information about your research interests here.</p>
+        </section>
     </main>
 
     <footer>

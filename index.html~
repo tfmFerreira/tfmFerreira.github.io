@@ -6,8 +6,21 @@
     <title>Tiago Mendes Ferreira - Research Group</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        header h1 {
+        header {
             text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 20px;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        main h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -28,6 +41,26 @@
 
     <main>
         <!-- You can add content for the homepage here -->
+        <h2>Welcome to my research group!</h2>
+        <p>This is the homepage of my research group. Feel free to explore the other pages to learn more about us.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
     </main>
 
     <footer>
