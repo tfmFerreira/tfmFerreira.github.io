@@ -8,19 +8,78 @@
     <style>
         .centered-content {
             text-align: center;
-            margin: 0 auto; /* This will horizontally center the content */
-            max-width: 600px; /* Adjust the maximum width as needed */
+            margin: 0 auto;
+            max-width: 600px;
+        }
+
+        .centered-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 400px;
+            height: auto;
+            transition: opacity 1.5s ease-out;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .typing-text {
+            font-size: 18px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            border-right: 2px solid black; /* Simulated cursor */
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+
+        .typing-text.typed {
+            border-right: none; /* Remove cursor after typing */
         }
     </style>
 </head>
 <script src="header.js"></script>
 <body>
     <div class="centered-content">
-        <!-- You can add content for the homepage here -->
-        <h2>Welcome!</h2>
-        <p>This website is currently under construction. Feel free nevertheless to explore the other pages and to learn more about us.</p>
-        <p>&copy; 2024 Tiago Mendes Ferreira</p>
+        <!-- Show image first -->
+        <img id="gifImage" src="movie.gif" alt="Animated GIF" class="centered-image">
+
+        <!-- Hidden text container for typewriter effect -->
+        <div id="textContent" class="hidden">
+            <h2>Welcome!</h2>
+            <p id="typing-text" class="typing-text"></p>
+            <p>&copy; 2024 Tiago Mendes Ferreira</p>
+        </div>
     </div>
+
+    <script>
+        const text = "This website is currently under construction. Feel free nevertheless to explore the other pages and to learn more about us.";
+        let index = 0;
+        const speed = 65; // Typing speed (ms per character)
+        
+        function typeWriter() {
+            if (index < text.length) {
+                document.getElementById("typing-text").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, speed);
+            } else {
+                document.getElementById("typing-text").classList.add("typed"); // Remove cursor effect
+                setTimeout(() => {
+                    document.getElementById("gifImage").style.opacity = "0"; // Fade out image after typing
+                }, 2000);
+            }
+        }
+
+        setTimeout(() => {
+            document.getElementById("gifImage").style.opacity = "1"; // Ensure GIF is visible
+            document.getElementById("textContent").style.display = "block";
+            typeWriter();
+        }, 2000); // Start after Y miliseconds
+    </script>
 </body>
 </html>
 
