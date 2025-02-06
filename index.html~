@@ -10,7 +10,8 @@
 	    position: relative;	
             text-align: center;
             margin: 0 auto;
-            max-width: 600px;
+            max-width: 1200px;
+            margin-top: -30px;
         }
 
         .centered-image {
@@ -27,7 +28,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             color: black; /* Change if needed for contrast */
-            padding: 20px;
+            padding: 10px;
             border-radius: 10px;
         }
 
