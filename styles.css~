@@ -121,7 +121,7 @@ footer {
 
 /* Style the image */
 .member img {
-    max-width: 150px; /* Adjusts image size */
+    max-width: 350px; /* Adjusts image size */
     height: auto;
     border-radius: 10px; /* Optional: Adds rounded corners */
 }
