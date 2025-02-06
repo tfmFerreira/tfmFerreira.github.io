@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         .centered-content {
+	    position: relative;	
             text-align: center;
             margin: 0 auto;
-            max-width: 600px;
+            max-width: 1200px;
         }
 
         .centered-image {
@@ -19,6 +20,19 @@
             height: auto;
             transition: opacity 1.5s ease-out;
         }
+
+	.text-overlay {
+            position: absolute;
+            top: 90%; /* Adjust this to move text higher or lower */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black; /* Change if needed for contrast */
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+
+
 
         .hidden {
             display: none;
@@ -49,7 +63,7 @@
         <img id="gifImage" src="movie.gif" alt="Animated GIF" class="centered-image">
 
         <!-- Hidden text container for typewriter effect -->
-        <div id="textContent" class="hidden">
+        <div id="textContent" class="text-overlay hidden">
             <h2>Welcome!</h2>
             <p id="typing-text" class="typing-text"></p>
             <p>&copy; 2024 Tiago Mendes Ferreira</p>
@@ -59,7 +73,7 @@
     <script>
         const text = "This website is currently under construction. Feel free nevertheless to explore the other pages and to learn more about us.";
         let index = 0;
-        const speed = 65; // Typing speed (ms per character)
+        const speed = 50; // Typing speed (ms per character)
         
         function typeWriter() {
             if (index < text.length) {

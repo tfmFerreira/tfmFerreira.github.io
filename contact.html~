@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Tiago Mendes Ferreira</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="styles.css">
-</head>
 <script src="header.js"></script>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome to my research group! I am Tiago Mendes Ferreira, a Junior Research Group Leader at the Martin Luther University Halle-Wittenberg. My research interests include [insert your research interests here].</p>
-            <p>I am passionate about exploring [specific areas/topics] and finding innovative solutions to [specific problems]. Through my research, I aim to [describe your research goals/objectives].</p>
-            <p>Feel free to explore the other pages of this website to learn more about my research projects, publications, team members, and how to get in touch with us.</p>
-        </section>
-    </main>
+
+	<style>
+    .container {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        height: auto; /* Remove fixed height to reduce space */
+        margin-top: -30px; /* Adjust this value to move the map closer */
+    }    
+	</style>
+
+</head>
+<body>
+<div class="member">
+<img src="https://www.usc.es/ciqus/sites/default/files/logociqusnuevo.png" alt="Tiago Mendes Ferreira" class="logo">
+</div>
+<div class="container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d141.74656877864618!2d-8.557480501315554!3d42.873148978340474!2m3!1f38.773373223635!2f39.42770549487987!3f0!3m2!1i1024!2i768!4f35!5e1!3m2!1sen!2ses!4v1738791883939!5m2!1sen!2ses" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
 <div style="text-align: center;">
             <p>&copy; 2024 Tiago Mendes Ferreira</p>
         </div>
@@ -22,3 +34,10 @@
 </body>
 </html>
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">

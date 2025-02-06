@@ -16,3 +16,20 @@ document.write(`
     </header>
 `);
 
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the current page filename (e.g., "index.html")
+    let currentPage = window.location.pathname.split("/").pop();
+
+    // Select all navigation links in the header
+    let navLinks = document.querySelectorAll("nav a");
+
+    navLinks.forEach(link => {
+        let linkHref = link.getAttribute("href");
+
+        // If the link matches the current page, apply styles
+        if (currentPage === linkHref) {
+            link.style.fontWeight = "bold";
+            link.style.color = "#66CCFF"; // Yellow for high contrast with dark grey
+        }
+    });
+});

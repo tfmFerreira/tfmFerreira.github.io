@@ -1,75 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiago Mendes Ferreira - Publications</title>
+    <title>Tiago Mendes Ferreira - ORCID</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <script src="header.js"></script>
-<!DOCTYPE html>
-<html lang="en">
+<body>
     <main>
-        <h2>Publications</h2>
-        
-        <h3>Original Publications</h3>
-        <ol>
-<! -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  -->
-            <li>
-                <p>Anika Wurl, Kay Saalwächter, Tiago Mendes Ferreira. "Time-domain proton-detected local-field NMR for molecular structure determination in complex lipid membranes". <i>(2023)</i>.</p>
-                <p>DOI: <a href="https://doi.org/10.5194/mr-4-115-2023">Magnetic Resonance</a></p>
-            </li>
-<! -- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  -->
-            <li>
-                <p>Anika Wurl, Tiago Mendes Ferreira. "Atomistic MD Simulations of n -Alkanes in a Phospholipid Bilayer: CHARMM36 versus Slipids". <i>Macromolecular Theory and Simulations (2023)</i>.</p>
-                <p>DOI: <a href="https://doi.org/10.1002/mats.202200078">10.1002/mats.202200078</a></p>
-            </li>
-            <li>
-                <p>Alexey Krushelnitsky, Günter Hempel, Hannes Jurack, Tiago Mendes Ferreira. "Rocking motion in solid proteins studied by the 15N proton-decoupled R1¿ relaxometry". <i>Physical Chemistry Chemical Physics (2023)</i>.</p>
-                <p>DOI: <a href="https://doi.org/10.1039/D3CP00444A">10.1039/D3CP00444A</a></p>
-            </li>
-            <li>
-                <p>Anika Wurl, Maria Ott, Eric Plato, Annette Meister, Farzad Hamdi, Panagiotis L. Kastritis, Alfred Blume, Tiago Mendes Ferreira. "Filling the Gap with Long n-Alkanes: Incorporation of C20 and C30 into Phospholipid Membranes". <i>Langmuir 38 28 (2022)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.1021/acs.langmuir.2c00872">10.1021/acs.langmuir.2c00872</a></p>
-            </li>
-            <li>
-                <p>Hanne S. Antila, Anika Wurl, O.H. Samuli Ollila, Markus S. Miettinen, Tiago Mendes Ferreira. "Rotational decoupling between the hydrophilic and hydrophobic regions in lipid membranes". <i>Biophysical Journal 121 1 (2022)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.1016/j.bpj.2021.12.003">10.1016/j.bpj.2021.12.003</a></p>
-            </li>
-            <li>
-                <p>Amélie Bacle, Pavel Buslaev, Rebeca Garcia-Fandino, Fernando Favela-Rosales, Tiago Mendes Ferreira, Patrick F. J. Fuchs, Ivan Gushchin, et al. "Inverse Conformational Selection in Lipid-Protein Binding". <i>Journal of the American Chemical Society 143 34 (2021)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.1021/jacs.1c05549">10.1021/jacs.1c05549</a></p>
-            </li>
-            <li>
-                <p>Hanne S. Antila, Tiago Mendes Ferreira, O. H. Samuli Ollila, Markus S. Miettinen. "Using Open Data to Rapidly Benchmark Biomolecular Simulations: Phospholipid Conformational Dynamics". <i>Journal of Chemical Information and Modeling 61 2 (2021)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.1021/acs.jcim.0c01299">10.1021/acs.jcim.0c01299</a></p>
-            </li>
-            <li>
-                <p>Josef Melcr, Tiago Mendes Ferreira, Pavel Jungwirth, O. H. Samuli Ollila. "Improved Cation Binding to Lipid Bilayers with Negatively Charged POPS by Effective Inclusion of Electronic Polarization". <i>Journal of Chemical Theory and Computation 16 1 (2019)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.1021/acs.jctc.9b00824">10.1021/acs.jctc.9b00824</a></p>
-            </li>
-            <li>
-                <p>Hanne Antila, Pavel Buslaev, Fernando Favela-Rosales, Tiago Mendes Ferreira, Ivan Gushchin, Matti Javanainen, Batuhan Kav, et al. "Headgroup Structure and Cation Binding in Phosphatidylserine Lipid Bilayers". <i>The Journal of Physical Chemistry B 123 43 (2019)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.1021/acs.jpcb.9b06091">10.1021/acs.jpcb.9b06091</a></p>
-            </li>
-            <!-- Add more original publications here -->
-        </ol>
-
-        <h3>Reviews</h3>
-        <ol>
-            <li>
-                <p>Ruth Bärenwald, Anja Achilles, Frank Lange, Tiago Mendes Ferreira, Kay Saalwächter. "Applications of Solid-State NMR Spectroscopy for the Study of Lipid Membranes with Polyphilic Guest (Macro)Molecules". <i>Polymers 8 12 (2016)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.3390/polym8120439">10.3390/polym8120439</a></p>
-            </li>
-            <li>
-                <p>Tiago Mendes Ferreira, Rohit Sood, Ruth Bärenwald, Göran Carlström, Daniel Topgaard, Kay Saalwächter, Paavo K. J. Kinnunen, O. H. Samuli Ollila. "Acyl Chain Disorder and Azelaoyl Orientation in Lipid Membranes Containing Oxidized Lipids". <i>Langmuir 32 25 (2016)</i>.</p>
-                <p>DOI: <a href="http://dx.doi.org/10.1021/acs.langmuir.6b00788">10.1021/acs.langmuir.6b00788</a></p>
-            </li>
-            <!-- Add more reviews here -->
-        </ol>
+        <p>For a full list of publications, visit my ORCID profile:</p>
+        <a href="https://orcid.org/0000-0002-0312-1479" target="_blank">View Publications on ORCID</a>
     </main>
-
-    <footer>
+<div style="text-align: center;">
         <p>&copy; 2024 Tiago Mendes Ferreira</p>
-    </footer>
+        </div>
 </body>
 </html>
-

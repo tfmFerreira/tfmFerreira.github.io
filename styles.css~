@@ -68,7 +68,6 @@ footer {
     width: 440px; /* Adjust size as needed */
     height: auto;
     object-fit: cover;
-    margin-top: 30px;
 }
 
 .member-text {
