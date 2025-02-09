@@ -1,57 +1,19 @@
-    <header style="background-color: #222; padding: 20px 0; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);">
-        <h1 style="color: #fff; text-align: center; font-size: 28px; margin: 0; font-family: Arial, sans-serif;">
-            Biomembrane Magnetic Resonance Lab
-        </h1>
-        <nav style="display: flex; justify-content: center; margin-top: 10px;">
-            <ul style="list-style: none; padding: 0; display: flex; gap: 15px;">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="research.html" class="nav-link">Research</a></li>
-                <li><a href="members.html" class="nav-link">Members</a></li>
-                <li><a href="publications.html" class="nav-link">Publications</a></li>
-                <li><a href="news.html" class="nav-link">News</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
+document.write(`
+    <header style="text-align: center;">
+        <h1>Biomembrane Magnetic Resonance Lab
+</h1>
+        <nav>
+            <ul style="text-align: center;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
     </header>
-    <style>
-        /* Modern Navigation Bar Styling */
-        .nav-link {
-            text-decoration: none;
-            color: #ddd;
-            font-size: 18px;
-            font-family: Arial, sans-serif;
-            padding: 10px 15px;
-            transition: color 0.3s, background-color 0.3s;
-            border-radius: 5px;
-        }
-
-        /* Hover Effect */
-        .nav-link:hover {
-            color: #fff;
-            background-color: #444;
-        }
-
-        /* Active Page Styling */
-        .nav-link.active {
-            font-weight: bold;
-            color: #ffcc00; /* Highlight color */
-            background-color: #333;
-            border-radius: 5px;
-        }
-
-        /* Responsive Navigation for Small Screens */
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .nav-link {
-                display: block;
-                padding: 12px;
-            }
-        }
-    </style>
 `);
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -59,14 +21,53 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentPage = window.location.pathname.split("/").pop();
 
     // Select all navigation links in the header
-    let navLinks = document.querySelectorAll(".nav-link");
+    let navLinks = document.querySelectorAll("nav a");
 
     navLinks.forEach(link => {
         let linkHref = link.getAttribute("href");
 
-        // If the link matches the current page, apply the active class
+        // If the link matches the current page, apply styles
         if (currentPage === linkHref) {
-            link.classList.add("active");
+            link.style.fontWeight = "bold";
+            link.style.color = "#66CCFF"; // Yellow for high contrast with dark grey
         }
     });
 });
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Create a modal container dynamically
+    const modal = document.createElement("div");
+    modal.classList.add("image-modal");
+    modal.innerHTML = `
+        <span class="close">&times;</span>
+        <img id="modal-img" src="">
+    `;
+    document.body.appendChild(modal);
+
+    const modalImg = document.getElementById("modal-img");
+    const closeBtn = modal.querySelector(".close");
+
+    // Function to open the modal when clicking on an image
+    document.querySelectorAll(".member-photo").forEach(img => {
+        img.style.cursor = "pointer"; // Change cursor to indicate clickability
+        img.addEventListener("click", function() {
+            modal.style.display = "flex"; // Show modal
+            modalImg.src = this.src; // Set image source
+        });
+    });
+
+    // Function to close the modal
+    closeBtn.addEventListener("click", function() {
+        modal.style.display = "none";
+    });
+
+    // Close the modal if the user clicks outside the image
+    modal.addEventListener("click", function(e) {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+});
+</script>
+

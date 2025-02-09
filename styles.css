@@ -47,11 +47,23 @@ footer {
     padding: 10px 0;
 }
 
+#publications p {
+    font-size: 18px;
+}
+
+#research p {
+    font-size: 18px;
+}
+
+#news p {
+    font-size: 18px;
+}
 
 .member-photo {
-    height: 240px;
-    width: auto; /* Adjust size as needed */
-    object-fit: cover;
+    width: 250px; /* Adjust as needed */
+    height: auto; /* Ensures aspect ratio is maintained */
+    object-fit: cover; /* Ensures images fill the space without distortion */
+    display: block;
 }
 
 .logo {
@@ -137,3 +149,54 @@ footer {
         max-width: 80%; /* Slightly larger image on mobile */
     }
 }
+
+/* Make the logo responsive */
+.logo {
+    max-width: 80%; /* Adjust for mobile */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Ensure the map is responsive */
+.container iframe {
+    width: 100%; /* Adjusts width to fit screen */
+    max-width: 90vw; /* Prevents it from being too large */
+    height: 300px; /* Set a reasonable height */
+}
+
+/* Center the container for small screens */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Reduce padding on smaller screens */
+@media (max-width: 768px) {
+    .container iframe {
+        height: 250px; /* Reduce height on smaller screens */
+    }
+}
+
+/* Default image styling for desktop */
+#publications img {
+    width: 40%; /* Default size */
+    height: auto;
+    max-width: 500px; /* Prevents overly large images */
+    display: block;
+    margin: 10px auto; /* Centers images */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    #publications img {
+        width: 80%; /* Make images larger on mobile */
+        max-width: 100%; /* Use full width if needed */
+    }
+}
+
+
