@@ -182,3 +182,21 @@ footer {
     }
 }
 
+/* Default image styling for desktop */
+#publications img {
+    width: 40%; /* Default size */
+    height: auto;
+    max-width: 500px; /* Prevents overly large images */
+    display: block;
+    margin: 10px auto; /* Centers images */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    #publications img {
+        width: 80%; /* Make images larger on mobile */
+        max-width: 100%; /* Use full width if needed */
+    }
+}
+
+

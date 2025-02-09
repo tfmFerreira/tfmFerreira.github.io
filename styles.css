@@ -191,12 +191,19 @@ footer {
     margin: 10px auto; /* Centers images */
 }
 
-/* Adjust for smaller screens */
+
+/* Make images bigger on smaller screens */
 @media (max-width: 768px) {
     #publications img {
-        width: 80%; /* Make images larger on mobile */
-        max-width: 100%; /* Use full width if needed */
+        width: 95%; /* Almost full width */
+        max-width: 95%; /* Prevents overflow */
+        height: auto;
     }
 }
 
+/* Ensure images do not exceed container width */
+#publications {
+    text-align: center; /* Keeps images centered */
+    max-width: 100%;
+}
 
