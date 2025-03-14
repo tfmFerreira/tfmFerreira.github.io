@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Tiago Mendes Ferreira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="header.js"></script>
+<body>
+    <main>
+        <section id="news">
+
+
+<div style="text-align: center;">
+
+    <div class="news-entry">
+        <p class="news-title">6th G-NMR School, 10-14 March 2025</p>
+        <p><em>More details: <a href="https://www.physik.uni-halle.de/fachgruppen/biophysik/gnmr-school-2025" target="_blank">Official Link</a></em></p>
+    </div>
+
+    <div class="news-entry">
+        <p class="news-title">Join Us!!</p>
+        <p><em>We are now looking for undergraduate/graduate students and postdoctoral researchers to incorporate in the group.</em></p>
+    </div>
+
+    <div class="news-entry">
+        <p class="news-title">September 2024: Relocation to Santiago de Compostela</p>
+        <p><em>The group relocates from the Martin Luther University Halle-Wittenberg (MLU), Germany, to the Center for Research in Biological Chemistry and Molecular Materials 
+            (<a href="https://www.usc.es/ciqus/en" target="_blank">CiQUS</a>) in the University of Santiago de Compostela.</em></p>
+    </div>
+
+</div>
+
+
+        </section>
+    </main>
+<div style="text-align: center;">
+        <p>&copy; 2024 Tiago Mendes Ferreira</p>
+        </div>
+</body>
+</html>
+

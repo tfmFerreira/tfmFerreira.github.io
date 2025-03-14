@@ -8,6 +8,7 @@ document.write(`
                 <li><a href="research.html">Research</a></li>
                 <li><a href="members.html">Members</a></li>
                 <li><a href="publications.html">Publications</a></li>
+                <li><a href="scripts.html">Scripts</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
